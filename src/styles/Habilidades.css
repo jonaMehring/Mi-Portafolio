@@ -1,0 +1,79 @@
+#habilidades {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #000c49, #34428a, #0077b6);
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #5899ca;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.habilidades-wrapper  {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+.frameworks-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.card {
+  width: 220px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(27, 190, 27, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.progress-mi {
+  height: 30px;
+  background-color: #b8b1b1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-mi {
+  background-color: #40cc09;
+  width: 50%;
+  color: rgb(1, 10, 7);
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: center;
+}
+.card-body{
+  background-color: black;
+  
+}
+.card-text{
+ color: #58dce0;
+}
+.card-t{
+  color: #58dce0;
+  text-align: center;
+}
+
+
