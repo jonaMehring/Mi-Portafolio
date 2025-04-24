@@ -13,11 +13,11 @@ function Project() {
         { label: "Herramientas", stack: "Git, GitHub, EmailJS" }
       ],
       imagenes: [
-        '/imgs/imgProyect/inicio.PNG',
-        '/imgs/imgProyect/hab1.PNG',
-        '/imgs/imgProyect/hab2.PNG',
-        '/imgs/imgProyect/contacto.PNG',
-        '/imgs/imgProyect/proyecto.PNG'
+        '/Mi-Portafolio/imgs/imgProyect/inicio.PNG',
+        '/Mi-Portafolio/imgs/imgProyect/hab1.PNG',
+        '/Mi-Portafolio/imgs/imgProyect/hab2.PNG',
+        '/Mi-Portafolio/imgs/imgProyect/contacto.PNG',
+        '/Mi-Portafolio/imgs/imgProyect/proyecto.PNG'
       ],
      codigo: "https://github.com/tuusuario/mi-portafolio"
     },
@@ -31,7 +31,7 @@ function Project() {
         { label: "Herramientas", stack: "Git, GitHub"}
       ],
       imagenes: [
-        '/imgs/imgProyect/stock.png', 
+        '/Mi-Portafolio/imgs/imgProyect/stock.png', 
       ],
       codigo: "https://github.com/tuusuario/mi-portafolio"
     }

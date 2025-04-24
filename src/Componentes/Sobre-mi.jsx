@@ -4,7 +4,7 @@ function SobreMi() {
         <section className="sobre-mi">
             <div className='contenedor'>
                 <div className='imagen'>
-                    <img src='/imgs/foto_CV1.jpg' alt="mi foto" className="mi-foto" />
+                    <img src='/Mi-Portafolio/imgs/foto_CV1.jpg' alt="mi foto" className="mi-foto" />
                 </div>
                 <div className='texto'>
                     <h1>Hola soy Jonatan Mehring!!</h1>

@@ -1,18 +1,18 @@
 import '/Users/Jonis/mi-portafolio/src/styles/Habilidades.css';
 function Habilidad() {
     const habilidades = [
-        { nombre: 'Java:', img: '/imgs/java.png', nivel: '80%' },
-        { nombre: 'PHP:', img: '/imgs/php.jpg', nivel: '80%' },
-        { nombre: 'Spring Boot:', img: '/imgs/springg.jpg', nivel: '80%' },
-        { nombre: 'MySQL:', img: '/imgs/my sql.png', nivel: '80%' },
+        { nombre: 'Java:', img: '/Mi-Portafolio/imgs/java.png', nivel: '80%' },
+        { nombre: 'PHP:', img: '/Mi-Portafolio/imgs/php.jpg', nivel: '80%' },
+        { nombre: 'Spring Boot:', img: '/Mi-Portafolio/imgs/springg.jpg', nivel: '80%' },
+        { nombre: 'MySQL:', img: '/Mi-Portafolio/imgs/my sql.png', nivel: '80%' },
         
 
     ];
     const frameworks =[
-        { nombre: 'React:', img: '/imgs/React.png', nivel: '80%' },
-        { nombre: 'Hibernate:', img: '/imgs/hibernate.jpg', nivel: '80%' },
-        { nombre: 'Angular:', img: '/imgs/anguuuuu.png', nivel: '60%' },
-        { nombre: 'Laravel:', img: '/imgs/laravel.jpg', nivel: '50%' },
+        { nombre: 'React:', img: '/Mi-Portafolio/imgs/React.png', nivel: '80%' },
+        { nombre: 'Hibernate:', img: '/Mi-Portafolio/imgs/hibernate.jpg', nivel: '80%' },
+        { nombre: 'Angular:', img: '/Mi-Portafolio/imgs/anguuuuu.png', nivel: '60%' },
+        { nombre: 'Laravel:', img: '/Mi-Portafolio/imgs/laravel.jpg', nivel: '50%' },
         
         
     ];
