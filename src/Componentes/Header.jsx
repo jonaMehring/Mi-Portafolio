@@ -8,6 +8,7 @@ function Header() {
         <Link to="/habilidades">Habilidades Técnicas</Link>
         <Link to="/contacto">Contacto</Link>
         <Link to="/project">Projectos</Link>
+        <Link to="/certificados">Certificados</Link>
         <Link to="/">Inicio</Link>
       </nav>
     </header>

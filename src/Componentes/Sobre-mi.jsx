@@ -1,18 +1,27 @@
 import '/Users/Jonis/mi-portafolio/src/styles/SobreMI.css';
 function SobreMi() {
+    console.log("Se renderizó SobreMi");
     return (
         <section className="sobre-mi">
-            <div className='contenedor'>
-                <div className='imagen'>
-                    <img src='/Mi-Portafolio/imgs/foto_CV1.jpg' alt="mi foto" className="mi-foto" />
-                </div>
-                <div className='texto'>
-                    <h1>Hola soy Jonatan Mehring!!</h1>
-                    <h3>Sobre mi:</h3>
-                    <p> Soy desarrollador Full Stack, graduado en la Universidad Tecnológica Nacional Facultad Regional Santa Fe, recibido como Técnico universitario en Tecnologías de la Información.
-                        <p> Me apasiona resolver desafíos, aprender constantemente y crear soluciones digitales que generen un impacto positivo.</p>
-                        <p> Disfruto tanto del desarrollo backend como el diseño de interfaces intuitivas y funcionales, buscando siempre combinar eficiencia, estética y una excelente experiencia de usuario.</p>
-                        Además, tengo sólido conocimientos en gestión y modelado de bases de datos, lo que me permite desarrollar aplicaciones robustas, escalables y bien estructuradas desde el backend hasta el frontend.
+            <div className="contenedor">
+                <img
+                    src='/Mi-Portafolio/imgs/foto_CV1.jpg'
+                    alt="Mi Foto"
+                    className="imagen mi-foto"
+                />
+                <div className="texto">
+                    <h1>Jonatan Mehring</h1>
+                    <h3>Developer Full Stack Jr</h3>
+                    <p>
+                        Soy graduado en la Universidad Tecnológica Nacional Facultad Regional Santa Fe, recibido como Técnico Univ.
+                        en Tecnologías de la Información.
+                        Soy un apasionado por la tecnología y el desarrollo de software, me apasiona resolver desafíos,
+                        aprender constantemente y crear soluciones digitales que generen un impacto positivo.
+                        <p>Disfruto tanto del desarrollo backend como el diseño de
+                            interfaces intuitivas y funcionales, buscando siempre combinar eficiencia, estética
+                            y una excelente experiencia de usuario. Además, tengo sólido conocimientos en gestión y modelado de bases de datos, lo que me permite
+                            desarrollar aplicaciones robustas, escalables y bien estructuradas desde el backend hasta el frontend.</p>
+                        Siempre busco seguir creciendo profesionalmente y aprender nuevas tecnologías.
                     </p>
                 </div>
             </div>

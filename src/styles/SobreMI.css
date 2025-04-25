@@ -3,7 +3,8 @@
     background: linear-gradient(to right, #000c49, #34428a, #0077b6);
     display: flex;
     justify-content: center;
-
+    text-align: center;
+    
   }
   
   .contenedor{
@@ -22,7 +23,7 @@
   .texto {
   flex: 1;
   text-align: left;
-  color: #dbeafe;
+  color: #b0bec5;
   font-family: 'Arial', sans-serif;
 
 }
