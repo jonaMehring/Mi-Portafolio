@@ -20,18 +20,17 @@ function Contacto() {
 
     return (
         <section id="contacto" className="contact-section">
-            <div className="contact-container" />
-            <h2 className="contact-title">Contacto</h2>
-            <p className="contact-subtitle">¿Tenés un proyecto o simplemente querés charlar? ¡Escribime!</p>
+            <div className="contact-container">
+                <h2 className="contact-title">Contacto</h2>
+                <p className="contact-subtitle">¿Tenés un proyecto o idea? ¡Escribime!</p>
 
-            <form className="contact-form" ref={form} onSubmit={sendEmail}>
-                <input type="text" name="from_name" placeholder="Tu nombre" required />
-                <input type="email" name="from_email" placeholder="Tu email" required />
-                <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-
-
+                <form className="contact-form" ref={form} onSubmit={sendEmail}>
+                    <input type="text" name="from_name" placeholder="Tu nombre" required />
+                    <input type="email" name="from_email" placeholder="Tu email" required />
+                    <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </section>
 
     );

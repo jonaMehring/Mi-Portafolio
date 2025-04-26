@@ -1,4 +1,4 @@
-#habilidades {
+#habilidades{
   padding: 40px 20px;
   background: linear-gradient(to right, #000c49, #34428a, #0077b6);
   text-align: center;
@@ -6,74 +6,148 @@
 
 .titulo {
   font-size: 2rem;
-  margin-bottom: 30px;
-  color: #5899ca;
+  margin: 30px 0;
+  color: #58dce0;
   text-transform: uppercase;
   letter-spacing: 1px;
+
+}
+
+#habilidades{
+  padding: 40px 20px;
+  background: linear-gradient(to right, #000c49, #34428a, #0077b6);
   text-align: center;
 }
 
-.habilidades-wrapper  {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  padding: 20px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  
-}
-.frameworks-wrapper{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  padding: 20px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
+.titulo {
+  font-size: 2rem;
+  margin: 30px 0;
+  color: #58dce0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
 }
 
-.card {
-  width: 220px;
+.habilidades-wrapper,
+.frameworks-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.habilidades-card {
+  background-color: black;
   border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(27, 190, 27, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
+
+.habilidades-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  background: linear-gradient(to right, #000c49, #34428a, #0077b6);
+}
+
+.card-body {
+  padding: 15px;
+  background: linear-gradient(to right, #000c49, #34428a, #0077b6);
+}
+
+.card-t {
+  color: #58dce0;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  color: #b0e0e6;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
 .progress-mi {
-  height: 30px;
-  background-color: #b8b1b1;
+  height: 28px;
+  background-color: #ddd;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .progress-bar-mi {
+  height: 100%;
   background-color: #40cc09;
-  width: 50%;
-  color: rgb(1, 10, 7);
+  color: #000;
   font-weight: bold;
-  font-size: 1rem;
-  line-height: 30px;
+  font-size: 0.9rem;
+  line-height: 28px;
   text-align: center;
 }
-.card-body{
+
+.habilidades-card {
   background-color: black;
-  
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.card-text{
- color: #58dce0;
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
-.card-t{
+
+.habilidades-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  background: linear-gradient(to right, #000c49, #34428a, #0077b6);
+}
+
+.card-body {
+  padding: 15px;
+  background: linear-gradient(to right, #000c49, #34428a, #0077b6);
+}
+
+.card-t {
   color: #58dce0;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  color: #b0e0e6;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.progress-mi {
+  height: 28px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-mi {
+  height: 100%;
+  background-color: #40cc09;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 28px;
   text-align: center;
 }
-
-

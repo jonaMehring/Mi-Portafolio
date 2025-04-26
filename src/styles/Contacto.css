@@ -6,8 +6,13 @@
   }
   
   .contact-container {
-    max-width: 600px;
+    max-width: 500px;
+    width: 100%;
     margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   }
   
   .contact-title {
@@ -72,4 +77,28 @@
   
   .contact-links a:hover {
     border-color: #4caf50;
+  }
+  @media (max-width: 600px) {
+    .contact-form {
+      padding: 0 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .contact-form button {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    .contact-title {
+      font-size: 2rem;
+    }
+  
+    .contact-subtitle {
+      font-size: 1rem;
+    }
   }
